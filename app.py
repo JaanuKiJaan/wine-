@@ -12,7 +12,7 @@ import joblib
 
 model = joblib.load("dtc_model.pkl")
 
-st.title("Wine type prediction")
+st.title("🥂Wine type prediction💕")
 
 fixed_acidity = st.number_input("fixed_acidity")
 volatile_acidity = st.number_input("volatile_acidity")
